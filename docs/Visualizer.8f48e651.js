@@ -7,4 +7,4 @@ parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRe
 },{"./Spotify":"KQTT"}],"7QCb":[function(require,module,exports) {
 "use strict";exports.__esModule=!0;var e=require("./Visualizer"),r=new e.Visualizer;document.onkeypress=function(e){32===e.keyCode&&r.toggle()};
 },{"./Visualizer":"pvLl"}]},{},["7QCb"], null)
-//# sourceMappingURL=/Spotify%20Player.8f48e651.map
+//# sourceMappingURL=/Visualizer.8f48e651.map
