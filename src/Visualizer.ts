@@ -40,7 +40,7 @@ export class Visualizer {
         this.spotify.authorize({
             client_id: "611f3dd4bae743bca1dcf8603d53ea32",
             response_type: "token",
-            redirect_uri: "http://localhost:3000",
+            redirect_uri: window.location.href,
             scope: ['user-modify-playback-state']
         });
         window.onresize = () => this.updateBounds();
