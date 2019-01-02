@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel serve index.html --port 3000",
-    "build": "parcel build index.html --out-dir docs"
+    "start": "parcel serve src/index.html --port 3000",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./"
   },
   "author": "digized",
   "license": "ISC",
